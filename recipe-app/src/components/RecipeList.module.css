@@ -1,0 +1,32 @@
+.recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .recipeLink {
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+  }
+  
+  .recipeCard {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s;
+  }
+  
+  .recipeCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .recipeImage {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
