@@ -1,0 +1,25 @@
+.weather {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.weather img {
+  margin-top: 10px;
+}
+
+.weather p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #666;
+}
